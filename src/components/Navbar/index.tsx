@@ -19,7 +19,7 @@ import { ElevationScroll, ScrollTop, Transition } from '../ScrollUp';
 
 interface Props {
     window?: () => Window;
-    children: React.ReactElement;
+    children?: React.ReactElement;
 }
 
 export const Navbar = (props: Props) => {
