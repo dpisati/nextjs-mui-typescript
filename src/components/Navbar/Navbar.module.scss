@@ -1,0 +1,22 @@
+@import '../../../styles/global';
+
+.navbarContainer {
+    background-color: $color-primary;
+}
+
+.burgerMenuContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vh;
+    background-color: red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+        list-style: none;
+    }
+}
